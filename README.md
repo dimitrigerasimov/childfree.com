@@ -1,2 +1,2 @@
-# childfree.com
-childfree.com - the hub for the childfree community
+# Childfree.com
+Childfree.com - The central hub for the childfree community
