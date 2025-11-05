@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.App-header {
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: gentleGlow 3s ease-in-out infinite;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.App-header p {
+  font-size: 1.5rem;
+  animation: gentleGlow 3s ease-in-out infinite;
+  animation-delay: 0.5s;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+@keyframes gentleGlow {
+  0%, 100% {
+    text-shadow: 
+      0 0 5px rgba(255, 255, 255, 0.2),
+      0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    text-shadow: 
+      0 0 10px rgba(255, 255, 255, 0.4),
+      0 0 15px rgba(255, 255, 255, 0.2);
+  }
+}
